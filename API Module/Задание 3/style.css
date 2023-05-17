@@ -1,0 +1,73 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 500px;
+	height: auto;
+	padding: 10px;
+	box-shadow: 5px 5px 5px 5px rgb(134, 134, 134);
+	margin: 20px auto;
+}
+
+.form-chat {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form-input {
+	border: 3px solid green;
+    padding: 7px 5px;
+	width: 80%;
+	margin-right: 10px;
+	outline: none;
+	
+}
+.form-input:focus {
+	border: 3px solid greenyellow;
+}
+
+.form-btn {
+	border: none;
+	background-color: green;
+	padding: 0px 5px;
+	width: 30%;
+	 cursor: pointer; 
+}
+.form-btn:hover {
+	background-color: greenyellow;
+}
+
+.wrapper-chat {
+	overflow: auto;
+	border: 3px solid green;
+	padding: 5px;
+	margin-top: 12px;
+	height: 400px;
+}
+ .messages {
+	border: 3px solid green;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 7px;
+	align-self: flex-end;
+} 
+
+.user-messages {
+	display: flex;
+	flex-flow: column wrap;
+
+}
+.server-messages, a {
+	cursor: pointer;
+	color: red;
+	text-decoration: none
+}
+.server-messages:hover, a:hover {
+	color: greenyellow;
+}
+
+.geo-location {
+	margin-left: 6px;
+}
